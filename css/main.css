@@ -481,11 +481,16 @@ body {
     margin-bottom: 12px;
 }
 
+/*New*/
+.blog .row > [class*='col-'] {
+    margin-bottom: 30px;
+}
+
 .blog .box {
     border-radius: 10px;
     background: #212222;
     /* New */
-    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -541,6 +546,7 @@ body {
     color: #ffffff;
     line-height: 26px;
 }
+
 
 
 /* ==========================
@@ -736,4 +742,5 @@ body {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 }
+
 
