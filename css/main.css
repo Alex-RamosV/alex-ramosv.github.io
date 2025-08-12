@@ -484,6 +484,10 @@ body {
 .blog .box {
     border-radius: 10px;
     background: #212222;
+    /* New */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .blog .box .image {
@@ -508,6 +512,8 @@ body {
 
 .blog .box .text {
     padding: 25px;
+    /* New */
+    flex-grow: 1;
 }
 
 .blog .box h3 a {
@@ -730,3 +736,4 @@ body {
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
 }
+
