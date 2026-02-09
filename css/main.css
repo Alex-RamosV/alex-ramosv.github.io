@@ -21,7 +21,7 @@ Table of contents
 
 body {
     font-family: 'Muli', sans-serif;
-    //height: 5000px;
+    /*height: 5000px;*/
 }
 
 /* ==========================
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar .nav-item {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin: 0 20px;
 }
@@ -51,12 +51,12 @@ body {
 }
 
 .navbar .navbar-nav .dropdown span {
-    font-size: 10px;
+    font-size: 12px;
     margin-left: 3px;
 }
 
 .navbar .navbar-nav .dropdown .dropdown-menu a {
-    font-size: 16px;
+    font-size: 12px;
     color: #ffffff;
     margin-bottom: 10px;
 }
@@ -71,12 +71,11 @@ body {
 ========================== */
 .slider {
     background: url('../img/bg/BKG_AlejandroRamosVargas_GameProgrammer_GameDesigner.jpg') center center no-repeat;
-    height: calc(100vh - 92px);
+    height: calc(100vh);
     background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 72px;
 }
 
 .slider .particels {
@@ -106,7 +105,7 @@ body {
 }
 
 .slider .left-content h2 {
-    font-size: 16px;
+    font-size: 32px;
     font-weight: 600;
     color: #ffffff;
     padding: 10px 0;
@@ -142,22 +141,22 @@ body {
 ========================== */
 
 .about-me {
-    padding: 80px;
+    padding: 0px;
     background: #ffffff;
 }
 
 .about-me img {
-    padding-right: 50px;
+    padding-right: 0px;
 }
 
 .about-me h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #1965dd;
 }
 
 .about-me p {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
         text-align: justify;
     color: #000000;
@@ -169,7 +168,7 @@ body {
     background: #1965dd;
     border-radius: 35px;
     padding: 10px 30px;
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 600;
     margin-right: 10px;
@@ -181,7 +180,7 @@ body {
     border: 2px solid #1965dd;
     border-radius: 35px;
     padding: 10px 50px;
-    font-size: 14px;
+    font-size: 16px;
     color: #000000;
     font-weight: 600;
     text-decoration: none;
@@ -199,21 +198,23 @@ body {
 /* ==========================
    [04]. Services
 ========================== */
+
 .services {
-    padding: 80px;
     background: #ffffff;
 }
 
 .services h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #1965dd;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
 }
 
 .services .box {
-    padding: 40px;
-    margin-bottom: 30px;
+    border-radius: 12px;
+    display: block;
+    flex-direction: column;
+    width: 100%;
     background: #212222;
 }
 .services .box span {
@@ -222,16 +223,16 @@ body {
 }
 
 .services .box h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: #eee;
     margin: 0;
     padding: 0;
-    margin: 20px 0;
+    margin: 8px 0;
 }
 
 .services .box p {
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 400;
     line-height: 26px;
@@ -261,7 +262,7 @@ body {
 }
 
 .some-facts .items h3 {
-    font-size: 40px;
+    font-size: 16px;
     font-weight: 800;
     color: #ffffff !important;
     margin: 0;
@@ -284,27 +285,27 @@ body {
 ========================== */
 
 .portfolio {
-    padding: 80px 0 96px 0;
+    padding: 0px;
     background: #1965dd;
 }
 
 .portfolio h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #ffffff;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 .portfolio h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #ffffff;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 .portfolio .button-group {
-    margin-bottom: 32px;
-        margin-top: 60px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .portfolio .button-group button {
@@ -361,7 +362,7 @@ body {
 }
 
 .portfolio .single-portfolio-item .overlay .content h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -392,7 +393,7 @@ body {
 }
 
 .testimonials h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #e0a80d;
 }
@@ -412,7 +413,7 @@ body {
 }
 
 .testimonials .carousel-inner .carousel-item h3 {
-    font-size: 20px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: 600;
 }
@@ -463,19 +464,19 @@ body {
 ========================== */
 
 .blog {
-    padding: 80px;
+
     background: #1965dd;;
 }
 
 .blog h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     color: #ffffff;
-    margin-bottom: 72px;
+    margin-bottom: 0px;
 }
 
 .blog h3 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 12px;
@@ -487,7 +488,7 @@ body {
 }
 
 .blog .box {
-    border-radius: 10px;
+    border-radius: 12px;
     background: #212222;
     /* New */
     width: 100%;
@@ -505,24 +506,25 @@ body {
 
 .blog .box .image a {
     position: absolute;
-    right: 20px;
-    top: 20px;
-    padding: 5px 20px;
+    right: 24px;
+    top: 24px;
+    padding: 8px 16px;
     color: #ffffff;
     background: #e0a80d;
-    border-radius: 35px;
-    font-size: 13px;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 700;
     text-decoration: none;
 }
 
 .blog .box .text {
-    padding: 25px;
+    padding: 24px;
     /* New */
     flex-grow: 1;
 }
 
 .blog .box h3 a {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
     font-weight: 700;
     color: #e0a80d;;
@@ -532,7 +534,7 @@ body {
 }
 
 .blog .box h4 {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     color: #ffffff;
     margin-bottom: 20px;
@@ -540,7 +542,7 @@ body {
 }
 
 .blog .box p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
         text-align: justify;
     color: #ffffff;
@@ -554,15 +556,14 @@ body {
 ========================== */
 
 .contact {
-    padding: 80px;
-    background: #ffffff;
+    background: #1965dd;
 }
 
 .contact h2 {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
-    color: #1965dd;
-    margin-bottom: 60px;
+    color: #ffffff;
+    margin-bottom: 0px;
 }
 
 .contact .form-control {
@@ -648,13 +649,13 @@ body {
 
     /* About Me */
     .about-me {
-        padding: 130px 25px;
+        padding: 0px;
     }
     .about-me img {
         margin-bottom: 30px;
     }
     .about-me .btn-1 {
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .some-facts .items h4 {
@@ -677,8 +678,7 @@ body {
 
      /* Slider*/
      .slider {
-        height: calc(100vh - 80px);
-        margin-top: 60px;
+        height: calc(100vh);
      }
 
     .slider .left-content {
@@ -693,7 +693,7 @@ body {
     /* About Me */
     .about-me img {
         padding: 0;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     .some-facts .items h4 {
@@ -730,11 +730,11 @@ body {
     }
 
     .blog {
-        padding-bottom: 90px;
+        padding-bottom: 0px;
     }
 
     .about-me img {
-        display: none;
+        display: block;
     }
 }
 

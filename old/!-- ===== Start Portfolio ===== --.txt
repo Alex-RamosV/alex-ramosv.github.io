@@ -1,0 +1,174 @@
+<!-- ===== Start Portfolio ===== -->
+         
+        <section class="portfolio" id="portfolio">
+
+            <div class="container mx-auto py-5 my-5 border">
+
+                <h2 class="text-center border">Portfolio</h2>
+
+                <h3 class="text-center border">Hover over the image and click the title for more information.</h3>
+
+                <div class="container py-3 my-3 border">
+
+                    <div class="row">
+
+                        <div class="col-sm-12 border">
+
+                            <div class="button-group filter-button-group text-center border">
+
+                                <button data-filter="*" class="active">All</button>
+                                <button data-filter=".marketing">Game Development</button>
+                                <button data-filter=".design">Game Design</button>
+                                <button data-filter=".development">3D Work</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                    <div class="row grid border">
+
+                        <!-- Image-1 -->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+
+                            <div class="single-portfolio-item ">
+
+                                <img src="img/portafolio/LightingGameLevel_GameProgrammer_GameDesigner_AlejandroRamosVargas.jpg" alt="" class="img-fluid">
+
+                                <div class="overlay text-center">
+
+                                    <a href="https://www.artstation.com/artwork/EzamPK" target="_blank">
+
+                                    <div class="content">
+
+                                        <h3><a href="https://www.artstation.com/artwork/EzamPK" target="_blank"> Lighting in Unreal</h3>
+
+                                        <p>I was responsible for lighting the scene, where I used minimal lights and took advantage of emissive materials for illumination.</p>
+
+                                        <a href="https://www.artstation.com/artwork/EzamPK" class="image-link"><span class="fa fa-eye"></span></a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <!-- Image-2 -->
+                        <div class="col-lg-4 col-md-6 grid-item marketing">
+
+                            <div class="single-portfolio-item">
+
+                                <img src="img/portafolio/LogoSuperLiba_GameProgrammer_GameDesigner_AlejandroRamosVargas.jpg" alt="" class="img-fluid">
+
+                                <div class="overlay text-center">
+
+                                    <a href="https://play.google.com/store/apps/details?id=com.TachidoGames.SuperLibia&hl=es_BO" target="_blank">
+
+                                    <div class="content">
+
+                                        <h3><a href="https://play.google.com/store/apps/details?id=com.TachidoGames.SuperLibia&hl=es_BO" target="_blank"> Super Libia</h3>
+
+                                        <p>Collaborate with the art team to develop 2D animations, rigging, and 2D visual effects in the Unity Engine.</p>
+
+                                        <a href="https://play.google.com/store/apps/details?id=com.TachidoGames.SuperLibia&hl=es_BO" class="image-link"><span class="fa fa-eye"></span></a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <!-- Image-3 -->
+                        <div class="col-lg-4 col-md-6 grid-item design">
+
+                            <div class="single-portfolio-item">
+
+                                <img src="img/portafolio/SpaceLightGameDesign_GameProgrammer_GameDesigner_AlejandroRamosVargas.jpg" alt="" class="img-fluid">
+
+                                <div class="overlay text-center">
+
+                                    <a href="https://drive.google.com/file/d/1NYgGDEDULr5ITwjacVef2AY8XbtOtPzT/view?usp=sharing" target="_blank">
+
+                                    <div class="content">
+
+                                        <h3><a href="https://drive.google.com/file/d/1NYgGDEDULr5ITwjacVef2AY8XbtOtPzT/view?usp=sharing" target="_blank"> Space Light</h3>
+
+                                        <p>Developed the game design document, where I designed the graphical user interface to communicate the game's concept to the art and programming teams.</p>
+
+                                        <a href="https://drive.google.com/file/d/1NYgGDEDULr5ITwjacVef2AY8XbtOtPzT/view?usp=sharing" class="image-link"><span class="fa fa-eye"></span></a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <!-- Image-4 -->
+                        <div class="col-lg-4 col-md-6 grid-item development">
+
+                            <div class="single-portfolio-item">
+
+                                <img src="img/portafolio/Textures_GameProgrammer_GameDesigner_AlejandroRamosVargas.jpg" alt="" class="img-fluid">
+
+                                <div class="overlay text-center">
+
+                                    <a href="https://youtu.be/F4p5CiOQPx8" target="_blank">
+
+                                    <div class="content">
+                                        <h3><a href="https://youtu.be/F4p5CiOQPx8" target="_blank"> 3D Portfolio</h3>
+
+                                        <p>Texturing in Substance Designer, animating in Unreal, and 3D modeling in Maya.</p>
+
+                                        <a href="https://youtu.be/F4p5CiOQPx8" target="_blank"><span class="fa fa-eye"></span></a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        
+                        <!-- Image-5 -->
+                        <div class="col-lg-4 col-md-6 grid-item development">
+
+                            <div class="single-portfolio-item">
+
+                                <img src="img/portafolio/EpicBootcamp23Animation_GameProgrammer_GameDesigner_AlejandroRamosVargas.jpg" alt="" class="img-fluid">
+
+                                <div class="overlay text-center">
+
+                                    <a href="https://www.youtube.com/watch?v=TSjqydcmvvo" target="_blank">
+
+                                    <div class="content">
+
+                                        <h3><a href="https://www.youtube.com/watch?v=TSjqydcmvvo" target="_blank"> Animation in Unreal</h3>
+
+                                        <p>I participated in the Epic Bootcamp Animation 2023 LATAM, where I learned to use the engine to create an animation.</p>
+
+                                        <a href="https://www.youtube.com/watch?v=TSjqydcmvvo" target="_blank"><span class="fa fa-eye"></span></a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===== End Portfolio ===== -->
