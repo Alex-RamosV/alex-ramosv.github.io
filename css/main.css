@@ -67,9 +67,10 @@ body {
     background: #e0a80d;
 }
 
-/* Navbar design of scroll */
-
-
+.navbar-toggler-icon {
+  width: 3em; /* Adjust as needed, e.g., 1.5em, 2em, 2.5em */
+  height: 3em; /* Adjust as needed */
+}
 
 /* Opcional: Desplazamiento suave para que no salte de golpe */
 html {
@@ -130,7 +131,6 @@ html {
     font-weight: 600;
     color: #ffffff;
     line-height: 28px;
-    padding-right: 20px;
 }
 
 .slider .left-content .btn {
@@ -528,7 +528,7 @@ html {
 }
 
 .blog .box .text {
-    padding: 24px;
+    padding: 16px;
     /* New */
     flex-grow: 1;
 }
