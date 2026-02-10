@@ -31,7 +31,8 @@ $(function () {
         time: 3000
     });
     
-    
+    // Automatización del año de copyright
+    document.getElementById("current-year").textContent = new Date().getFullYear();
 
 });
 
